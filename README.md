@@ -1,2 +1,16 @@
-# Learning-Compiling
-Because the code is so low-level, I will add singlechip code and C++ assembly code.
+# 这是什么 #
+用简单的代码，简单的环境，从零开始阅读汇编代码。
+
+## 平台 ##
+该项目下有以下三个文件夹互不关联。分别介绍了**编译环境**，**测试结果**。
+
+	1. X86
+	2. ARM
+	3. 单片机(51系列)
+
+## 特点 ##
+
+
+1. 以简单的功能描述用汇编语言如何实现。
+2. 详细的代码背景知识，看起来不费劲，思路连贯。
+3. 有代码测试结果，直观可对比。
