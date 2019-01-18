@@ -1,0 +1,24 @@
+简化段定义和完整段定义的区别
+
+关于错误：ML Nonfatal Error A2085
+解释：在当前CPU模式下不接受的指令或寄存器
+尝试使用对当前处理器模式无效的指令、寄存器或关键字。
+例如：在当前的实验仿真环境--DosBox中，使用ML对汇编进行处理，如果出现了str关键字就会导致这个错误。
+	当出现类似问题时该如何发现并处理？TroubleShooting：
+	1.使用ATOM(或者类似的编辑器Sublime等等),
+	对特定语言的自动补全会提醒你是否存在一个不恰当的关键字使用。
+	2.MASM是微软官方的产品，因为对向下兼容的保证，
+	长时间的技术积累有足够的资料可查
+	https://docs.microsoft.com/
+	
+关于关键字str:
+	（1）LDR：L表示LOAD，LOAD的含义应该理解为：Load from memory into register。
+	（2）STR：S表示STORE，STORE的含义应该理解为：Store from a register into memory。
+	
+关于汇编指令
+.8086 指令目标处理器型号
+.MODEL small  程序储存模式为small
+
+	.model+模式；决定了转移、子程序调用、数据访问时的缺省属性；
+	且此伪指令自动产生相应ASSUME语句
+	

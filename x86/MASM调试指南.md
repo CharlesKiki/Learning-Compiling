@@ -41,3 +41,9 @@
 
 
 `stacksg segment stack`中最后的`stack`使连接程序Link将定义的堆栈段当堆栈段。 
+
+## TroubleShooting ##
+当遇到编译问题时可以解决问题的渠道
+
+	1.微软官方MSDN的错误提醒:
+	https://docs.microsoft.com/zh-cn/previous-versions/visualstudio/visual-studio-2008/bcs4ah1c(v%3dvs.90) 
