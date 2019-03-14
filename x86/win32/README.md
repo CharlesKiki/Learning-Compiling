@@ -1,0 +1,1 @@
+在下面的例子中，当用户选择菜单项“crate　process”时我们创建一个新进程。它会去执行“　"msgbox.exe”。如果用户想要终止新进程，可以选择菜单项“terminate　process”。这时，应用程序检查欲终止的进程是否仍存在，若存在则调用TerminateProcess函数来终止它。　
